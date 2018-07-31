@@ -5,6 +5,8 @@ An intro to Android Things with Raspberry Pi
 
 ## Requirements
 ##### 1. Computer with [Android Studio](https://developer.android.com/studio/) installed
+- Android 8.1 SDK API 27 or higher
+- SDK Tools version 25.0.3 or higher
 ##### 2. Raspberry Pi 3 Model B
 - Can be found on [Adafruit](https://www.adafruit.com/product/3055)
 - At time of writing (7-31-18) Pi 3 model **B+** is *NOT* supported
