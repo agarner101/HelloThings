@@ -77,3 +77,24 @@ List of devices attached
 
 ##### Results
 ![alt text](https://i.imgur.com/P26mpQM.png)
+
+#### Extra Credit: Static IP for Pi
+Problem: The IP address of your Pi can change, and finding that IP again can be annoying
+
+##### 1. Find MAC Address of Pi
+In terminal:
+``` $ adb shell ifconfig | grep wlan0```
+Result:
+```
+wlan0     Link encap:Ethernet  HWaddr xx:xx:xx:xx:xx:xx  Driver brcmfmac_sdio
+```
+The value next to `HWaddr` is the Pi's MAC address.
+
+##### 2. Reserve IP Address
+Varies by router, these are just generic instructions
+1. Open settings page for your router
+2. Go to **DHCP Settings** > **Address Reservation**
+3. Input MAC address and your Pi's current IP address
+
+Your Pi will now have its IP reserved. 
+
