@@ -53,7 +53,7 @@ Using Requirements #4 above.
 If everything is set up properly, the Android Things Dashboard should show:
 ![alt text](https://i.imgur.com/zmLIviK.png)
 
-##### 4. Connect to Pi via ADB
+##### 5. Connect to Pi via ADB
 Note the IP address shown on the dashboard. If there is no connection, go into the network settings to attempt wired connection, or check that ethernet cable is connected if opting for a wired connection. Ensure that computer is connected to the same network.
 
 ADB Connect: (Replace <Your-Pi-IP> with the IP shown on the Android Things dashboard)
@@ -70,7 +70,7 @@ List of devices attached
 <Your-Pi-IP>:5555	device
 ```
 
-##### 5. Run HelloThings app on Pi
+##### 6. Run HelloThings app on Pi
 1. Open HelloThings app in Android Studio
 2. Run App -- **Run** > **Run App**
 3. Select **Google Iot_rpi3**
